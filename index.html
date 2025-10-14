@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Manrope:wght@200..800&family=Playwrite+CA:wght@100..400&family=Playwrite+DE+SAS:wght@100..400&family=Sacramento&display=swap');
+    </style>
+    </head>
+
+<body>
+<nav class="navbar navbar-expand-lg custom-navbar ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <img src="../assets/marie-logo.png" alt="logo" class="logo-image">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/nuestros-pasteles.html">Nuestros Pasteles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/catering.html">Catering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/nuestra-historia.html">Sobre Nosotros</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Slider -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="./pages/nuestros-pasteles.html">
+      <img src="../assets/slider1.png" class="d-block w-100" alt="...">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="./pages/nuestros-pasteles.html">
+      <img src="../assets/slider2.png" class="d-block w-100" alt="...">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="./pages/catering.html">
+      <img src="../assets/slider3.png" class="d-block w-100" alt="...">
+      </a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Hero Section -->
+
+<section class="hero">
+<div class="hero-text">
+    <h1>Deliciosos pasteles 
+      <br>para cada ocasión</h1>
+    <p>En Marie Bakery Shop preparamos pasteles artesanales con sabores caseros y presentaciones únicas. 
+      <br>Perfectos para cumpleaños, bodas, eventos corporativos o simplemente para darte un gusto. 
+      <br>También ofrecemos catering de pasteles con entrega puntual. 
+      <br>¡Haz tu pedido online y disfruta de la dulzura en cada bocado!</p>
+    <div class="hero-botones">
+     <button><a href="./pages/nuestros-pasteles.html" class="boton-seccion">Pasteles</a></button>
+     <button><a href="./pages/catering.html" class="boton-seccion">Catering</a></button>
+</div>
+  </div>
+</section>
+
+<!-- Favoritas Section -->
+<section class="favoritas-section">
+  <h2>Las Favoritas de Siempre</h2>
+  <p class=" favoritas-descripcion">Nuestras clásicas irresistibles. Recetas artesanales, hechas desde cero, con ingredientes de calidad y ese toque casero que nos distingue.</p>
+  <div class="favoritas-cards">
+   <article class="favorita-1">
+      <img src="./assets/Pastel-fresa.webp" alt="pastel de fresa">
+      <h3>Torta de Fresa</h3>
+      <p>Esponjoso bizcocho de chocolate, 
+        <br>relleno con cremoso manjar.</p>
+      <p>S/. 60 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-1">
+      <img src="./assets/torta-chocolate.jpg" alt="torta chocolate">
+      <h3>Torta de Chocolate</h3>
+      <p>Esponjoso bizcocho de chocolate, 
+        <br>relleno con cremoso manjar.</p>
+      <p>S/. 60 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-2">
+      <img src="./assets/torta-red-velvet.jpg" alt="torta red velvet">
+      <h3>Torta Red Velvet</h3>
+      <p>Bizcocho red velvet con un relleno
+        <br> suave y cremoso.
+      </p>
+      <p>S/. 70 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-3">   
+      <img src="./assets/torta-pecanas.jpg" alt="foto de torta de pecanas">
+      <h3>Torta de Pecanas</h3>
+      <p>Crujientes pecanas en un bizcocho 
+        <br>suave y lleno de sabor.</p>
+      <p>S/. 65 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+  </article>
+</section>
+<!-- Categorias Section -->
+<section class="categorias-section">
+  <h2>Pasteles Para Cada Ocasión</h2>
+  <p class="categorias-descripcion">Pasteles artesanales para cumpleaños, aniversarios, eventos especiales… o para darte un gusto en cualquier momento.</p>
+  <div class="categorias-grid">
+    <div class="categorias-card">
+      <a href="./Pages/Nuestros_Pasteles_Enteros.html"><img src="./assets/pastel-cumple.webp" alt="Pasteles Enteros"></a>
+      <h3><a href="./Pages/Nuestros_Pasteles_Enteros.html"> Enteros</a></h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./assets/mini-torta.webp" alt="Mini Pastel">
+      <h3>Minis</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./assets/catering.jpg" alt="Catering">
+      <h3>Catering</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./assets/strawberry-cream-cake.jpg" alt="Porciones">
+      <h3>Porciones</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./assets/kekes.jpg" alt="Kekes">
+      <h3>Kekes</h3>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+<div class="footer-content">
+<ul>
+<li><a href="../index.html">Inicio</a></li>
+<li><a href="./pages/nuestros-pasteles.html">Nuestros Pasteles</a></li>
+<li><a href="./pages/catering.html">Catering</a></li>
+<li><a href="./pages/nuestra-historia.html">Sobre Nosotros</a></li>
+<li><a href="./pages/contactanos.html">Contactanos</a></li>
+</ul>
+</div>
+<div class="footer-social-content">
+<ul>
+<li><img src="../assets/facebook.png"></li>
+<li><img src="../assets/instagram.png"></li>
+<li><img src="../assets/x.png"></li>
+<li><img src="../assets/tiktok-circle.png"></li>
+</ul>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
