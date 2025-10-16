@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*General*/
+.section{
+  margin-top: 10px;
+  margin-bottom: 10 px;;
+  text-align: center;
+  padding:20px;
+}
+h1{
+  color: #c13a80 !important;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-weight:bold !important;
+}
+
+h2{
+  color: #c13a80 !important;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-weight:bold !important;
+}
+h3{
+  font-family: "Manrope", sans-serif;
+  padding:20px;
+  color:#c13a80 !important;
+  font-weight: bold !important;
+}
+p{
+ font-family: "Manrope", sans-serif;
+}
+
+
+/* Navigation Bar */
+.logo-image {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.custom-navbar {
+  background-color: white !important; 
+}
+
+.navbar .nav-link,
+.navbar .nav-link.active {
+  color: #a91f65 !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: #a91f65; 
+}
+navbar-nav li {
+  font-family: "Manrope", sans-serif !important;
+}
+.navbar li {
+margin: 20px;
+padding: 20 px;
+}
+
+.btn-outline-success {
+  background-color: #a91f65 !important;     /* fondo rosa fuerte */
+  color: white !important;                  /* texto blanco */
+  border-color: #a91f65 !important;         /* borde rosa fuerte */
+  font-weight: bold;
+  border-radius: 6px;            /* bordes redondeados */
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+}
+
+
+body{
+  background-color: white !important;  
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 6px; /* reduce espacio entre ítems */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 6px 0; /* menos espacio vertical */
+  }
+
+  .form-control {
+    margin-bottom: 0px;
+  }
+
+  .btn {
+    margin-bottom: 12px;
+    width: 100%; /* para que se vea bien en pantallas pequeñas */
+  }
+}
+
+.logo-image {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.custom-navbar {
+  background-color: white !important; 
+}
+
+.navbar .nav-link,
+.navbar .nav-link.active {
+  color: #a91f65 !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: #a91f65; 
+}
+navbar-nav li {
+  font-family: "Manrope", sans-serif !important;
+}
+.navbar li {
+margin: 20px;
+padding: 20 px;
+}
+
+.btn-outline-success {
+  background-color: #a91f65 !important;     /* fondo rosa fuerte */
+  color: white !important;                  /* texto blanco */
+  border-color: #a91f65 !important;         /* borde rosa fuerte */
+  font-weight: bold;
+  border-radius: 6px;            /* bordes redondeados */
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+}
+
+
+body{
+  background-color: white !important;  
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 6px; /* reduce espacio entre ítems */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 6px 0; /* menos espacio vertical */
+  }
+
+  .form-control {
+    margin-bottom: 0px;
+  }
+
+  .btn {
+    margin-bottom: 12px;
+    width: 100%; /* para que se vea bien en pantallas pequeñas */
+  }
+}
+
+/*Footer*/
+footer{
+  background-color: white;
+}
+.footer-content ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem; /* Espacio entre ítems */
+  background-color:#c13a80 ;
+}
+.footer-content li {
+  margin: 20px;
+  list-style: none; 
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  color:white; 
+}
+.footer-social-content ul{
+  list-style: none; 
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.footer-content a {
+  color: white;              /* Cambia el azul por blanco */
+  text-decoration: none;     /* Elimina el subrayado */
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+}
+
+.footer-social-content img{
+  width:20px;
+  height:20px;
+  margin:5px 30px 10px;
+}
+@media (max-width: 425px) {
+  .footer-content ul {
+    flex-direction: column;     /* Apila verticalmente */
+    align-items: center;        /* Centra los ítems */
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-content li {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .footer-social-content ul {
+    flex-direction: row;        /* Mantiene íconos en fila */
+    flex-wrap: wrap;            /* Permite que se ajusten si no caben */
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .footer-social-content img {
+    width: 24px;
+    height: 24px;
+    margin: 5px 10px;
+  }
+}

@@ -1,0 +1,120 @@
+@import 'variables';
+@import 'mixins';
+@import 'general';
+
+.catering-header {
+  background-color: $color-fondos;
+  padding: 40px;
+
+  @media (max-width: 425px) {
+    padding: 20px;
+  }
+}
+
+.catering-content,
+.catering-content-2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+
+  &.catering-content-2 {
+    background-color: $color-fondos;
+  }
+
+  @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .catering-eventos {
+    padding-bottom: 20px;
+
+    @media (max-width: 425px) {
+      padding-bottom: 10px;
+    }
+  }
+
+  .catering-eventos-imagen,
+  .catering-corporativo-imagen {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+      @media (max-width: 425px) {
+        height: auto;
+        max-height: 250px;
+      }
+    }
+
+    &.catering-corporativo-imagen {
+      @media (max-width: 425px) {
+        order: -1;
+      }
+    }
+  }
+}
+
+.boton-catering {
+  @include boton-estilo($color-fondo-secundario, lighten($color-fondo-secundario, 10%));
+
+  @media (max-width: 425px) {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.catering-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+
+  @media (max-width: 425px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+
+    @media (max-width: 425px) {
+      height: 160px;
+    }
+  }
+
+  a {
+    @include boton-estilo($color-fondo-secundario, lighten($color-fondo-secundario, 10%));
+
+    @media (max-width: 425px) {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
